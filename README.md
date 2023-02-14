@@ -1,10 +1,37 @@
-# Node.js template
+# react-template
 
-This is a Node.js project.
+Empty project.
 
-Add your [configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) to optimize it for [CodeSandbox](https://codesandbox.io/p/dashboard).
+## Building and running on localhost
 
-## Resources
+First install dependencies:
 
-- [CodeSandbox Projects — Docs](https://codesandbox.io/docs/projects)
-- [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)# Node.js template
+```sh
+npm install
+```
+
+To run in hot module reloading mode:
+
+```sh
+npm start
+```
+
+To create a production build:
+
+```sh
+npm run build-prod
+```
+
+To create a development build:
+
+```sh
+npm run build-dev
+```
+
+## Running
+
+Open the file `dist/index.html` in your browser
+
+## Credits
+
+Made with [createapp.dev](https://createapp.dev/)
